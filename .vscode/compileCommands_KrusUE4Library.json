@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\\\Users\\\\honghaolin\\\\Documents\\\\KrusUE4Library\\\\Source\\\\KrusUE4Library\\\\KrusClass.cpp",
+		"command": "cl.exe @\"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_KrusUE4Library\\KrusUE4Library.190.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\honghaolin\\\\Documents\\\\KrusUE4Library\\\\Source\\\\KrusUE4Library\\\\KrusClass.h",
+		"command": "cl.exe @\"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_KrusUE4Library\\KrusUE4Library.190.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\honghaolin\\\\Documents\\\\KrusUE4Library\\\\Source\\\\KrusUE4Library\\\\KrusUE4Library.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_KrusUE4Library\\KrusUE4Library.190.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\honghaolin\\\\Documents\\\\KrusUE4Library\\\\Source\\\\KrusUE4Library\\\\KrusUE4Library.cpp",
+		"command": "cl.exe @\"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_KrusUE4Library\\KrusUE4Library.190.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\honghaolin\\\\Documents\\\\KrusUE4Library\\\\Source\\\\KrusUE4Library\\\\KrusUE4Library.h",
+		"command": "cl.exe @\"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_KrusUE4Library\\KrusUE4Library.190.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]

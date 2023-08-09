@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "KrusUE4LibraryEditor Editor Win64 Development (KrusUE4Library)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_KrusUE4Library.json"
+		},
+		{
+			"name": "Win32",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}

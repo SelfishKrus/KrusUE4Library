@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "KrusUE4Library (Debug)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4Library Win64 Debug Build",
+			"program": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4Library (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4Library Win64 DebugGame Build",
+			"program": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4Library (Development)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4Library Win64 Development Build",
+			"program": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4Library (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4Library Win64 Shipping Build",
+			"program": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4Library (Test)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4Library Win64 Test Build",
+			"program": "C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4LibraryEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4LibraryEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\KrusUE4Library.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4LibraryEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4LibraryEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\KrusUE4Library.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "KrusUE4LibraryEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "KrusUE4LibraryEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\KrusUE4Library.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\honghaolin\\Documents\\KrusUE4Library\\KrusUE4Library.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+		}
+	]
+}
